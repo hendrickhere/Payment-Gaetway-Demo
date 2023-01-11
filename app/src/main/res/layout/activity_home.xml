@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/welcome_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:gravity="center"
+        android:text="Welcome"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="328dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mail_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="284dp"
+        android:gravity="center"
+        android:text="Mail"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="519dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
